@@ -1,6 +1,4 @@
-import Select from "./src/Select";
-import SelectBase from "./src/Select/base";
-import Radio from "./src/Radio";
-import RadioBase from "./src/Radio/base";
+import useOutsideClicker from "./src/useOutsideClicker";
+import mountComponent from "./src/mountComponent";
 
-export { Select, Radio, SelectBase, RadioBase };
+export { useOutsideClicker, mountComponent };
