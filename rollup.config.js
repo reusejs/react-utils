@@ -3,7 +3,12 @@ import babel from "@rollup/plugin-babel";
 import postcss from "rollup-plugin-postcss";
 
 export default {
-  input: ["index.js", "src/useOutsideClicker", "src/mountComponent"],
+  input: [
+    "index.js",
+    "src/useOutsideClicker",
+    "src/mountComponent",
+    "src/classNames",
+  ],
   output: [
     {
       dir: "build",
