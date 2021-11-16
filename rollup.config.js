@@ -9,6 +9,7 @@ export default {
     "src/mountComponent",
     "src/classNames",
     "src/uuidv4",
+    "src/useItemSelection",
   ],
   output: [
     {
