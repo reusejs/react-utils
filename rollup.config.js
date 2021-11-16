@@ -8,6 +8,7 @@ export default {
     "src/useOutsideClicker",
     "src/mountComponent",
     "src/classNames",
+    "src/uuidv4",
   ],
   output: [
     {
