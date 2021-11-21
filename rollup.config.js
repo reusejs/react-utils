@@ -22,7 +22,7 @@ export default {
     },
   ],
   preserveModules: true,
-  external: ["react", "react-dom"],
+  external: ["react", "react-dom", "regenerator-runtime"],
   plugins: [
     babel({
       babelHelpers: "runtime",
